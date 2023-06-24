@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="151251" started-at="2023-05-01T13:11:18Z" finished-at="2023-05-01T13:13:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="151251" started-at="2023-05-01T13:11:18Z" finished-at="2023-05-01T13:13:49Z">
+      <class name="shopkeytests.DemoOrderPlace">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:shopkeytests.DemoOrderPlace@2ed94a8b]" name="setUp" is-config="true" duration-ms="28785" started-at="2023-05-01T18:41:18Z" finished-at="2023-05-01T18:41:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="DemoPlacingOrders()[pri:0, instance:shopkeytests.DemoOrderPlace@2ed94a8b]" name="DemoPlacingOrders" duration-ms="122104" started-at="2023-05-01T18:41:47Z" finished-at="2023-05-01T18:43:49Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'AJEET', ip: '192.168.187.225', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_281'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [1b0f49cb-cdcf-4971-9b28-853ece3d4ce7, findElement {using=xpath, value=//android.widget.RadioButton[@index='0']}]
+Capabilities {appium:appActivity: com.bitnudge.ime.parent.vie..., appium:appPackage: com.bitnudge.ime.shopkey.sh..., appium:databaseEnabled: false, appium:desired: {appActivity: com.bitnudge.ime.parent.vie..., appPackage: com.bitnudge.ime.shopkey.sh..., deviceName: Infinix, platformName: android, reportDirectory: reports, reportFormat: xml, testName: Placing the Order, udid: 084113125P054404}, appium:deviceApiLevel: 30, appium:deviceManufacturer: INFINIX MOBILITY LIMITED, appium:deviceModel: Infinix X6816C, appium:deviceName: 084113125P054404, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1640, appium:deviceUDID: 084113125P054404, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:reportDirectory: reports, appium:reportFormat: xml, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:testName: Placing the Order, appium:udid: 084113125P054404, appium:viewportRect: {height: 1400, left: 0, top: 72, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 1b0f49cb-cdcf-4971-9b28-853ece3d4ce7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'AJEET', ip: '192.168.187.225', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_281'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [1b0f49cb-cdcf-4971-9b28-853ece3d4ce7, findElement {using=xpath, value=//android.widget.RadioButton[@index='0']}]
+Capabilities {appium:appActivity: com.bitnudge.ime.parent.vie..., appium:appPackage: com.bitnudge.ime.shopkey.sh..., appium:databaseEnabled: false, appium:desired: {appActivity: com.bitnudge.ime.parent.vie..., appPackage: com.bitnudge.ime.shopkey.sh..., deviceName: Infinix, platformName: android, reportDirectory: reports, reportFormat: xml, testName: Placing the Order, udid: 084113125P054404}, appium:deviceApiLevel: 30, appium:deviceManufacturer: INFINIX MOBILITY LIMITED, appium:deviceModel: Infinix X6816C, appium:deviceName: 084113125P054404, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1640, appium:deviceUDID: 084113125P054404, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2, appium:platformVersion: 11, appium:reportDirectory: reports, appium:reportFormat: xml, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:testName: Placing the Order, appium:udid: 084113125P054404, appium:viewportRect: {height: 1400, left: 0, top: 72, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 1b0f49cb-cdcf-4971-9b28-853ece3d4ce7
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at shopkeytests.DemoOrderPlace.DemoPlacingOrders(DemoOrderPlace.java:138)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoPlacingOrders -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:shopkeytests.DemoOrderPlace@2ed94a8b]" name="tearDown" is-config="true" duration-ms="3" started-at="2023-05-01T18:43:49Z" finished-at="2023-05-01T18:43:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- shopkeytests.DemoOrderPlace -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Shopkey project]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Shopkey Android App Test Results(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="shopkeytests.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- shopkeytests.LoginTest -->
+      <class name="shopkeytests.AddProducts">
+        <methods>
+          <include name="AddSimpleProduct"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- shopkeytests.AddProducts -->
+    </classes>
+  </test> <!-- Shopkey Android App Test Results(failed) -->
+</suite> <!-- Failed suite [Shopkey project] -->
